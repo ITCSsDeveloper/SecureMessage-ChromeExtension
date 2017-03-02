@@ -1,3 +1,4 @@
+# SecureMessage-ChromeExtension
 - Encrypt/Decrypt Your Message.
 - Safety Communications
 

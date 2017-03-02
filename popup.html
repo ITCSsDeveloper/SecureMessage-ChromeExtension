@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <title>Secure Message :D </title>
+</head>
+<body>
+  <h3>Secure Message Ext. <small>1.0</small></h3>
+  <label style="color: red;" id=showError></label>
+
+  <textarea type="text" id="inputMessage"  placeholder="Input Message"></textarea>
+  <textarea type="text" id="outputMessage" placeholder="Output Message"></textarea>
+
+  <input type="password" id="key" placeholder="key" style="width: 45px;">
+
+  <button id="btnDecrypt" style="float: right; color: red; font-size:8pt; height: 21px">DeCode</button>
+  <button id="btnEncrypt" style="float: right; color: green; font-size:8pt; height: 21px" ">EnCode</button>
+
+  <script src="sha512.js"></script>
+  <script src="ase.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
